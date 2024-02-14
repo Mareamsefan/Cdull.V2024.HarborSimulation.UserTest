@@ -7,9 +7,18 @@ using System.Threading.Tasks;
 
 namespace Cdull.V2024.HarborSimulation.UserTest
 {
-    internal class Test1
+    public class TestMakeHarborIntance
     {
-        //Lag en Habor instans ved hjelp av konstruktøren: 
+        static void Main(string[] args)
+        {
+
+            // Lag en Habor instans ved hjelp av konstruktøren: 
+
+            
+
+        }
+
+
 
 
     }

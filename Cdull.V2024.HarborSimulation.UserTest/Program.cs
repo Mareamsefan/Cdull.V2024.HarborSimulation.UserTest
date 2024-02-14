@@ -7,7 +7,7 @@ namespace Cdull.V2024.HarborSimulation.UserTest
         static void Main(string[] args)
         {
             Harbor harbor = new("Habor1", new CargoStorage("Cargostorage", 1000)); 
-
+            
 
         }
     }
