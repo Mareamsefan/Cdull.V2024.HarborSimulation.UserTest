@@ -14,9 +14,6 @@ namespace Cdull.V2024.HarborSimulation.UserTest
             // Lag en liste med docks-objeckter ved hjelp av harbor-metoden InitializeDocks(): 
 
 
-
-
-
             // Lag en liste med Ships-objekter ved hjelp av harbor-metoden InitializeShips(): 
 
 
@@ -37,11 +34,7 @@ namespace Cdull.V2024.HarborSimulation.UserTest
 
             // Hent Historikk for alle dager fra starttid til slutttid for harbor,
             // ved hjelp av GetHarborHistory()-metoden på harbor objektet: 
-            //Skriv ut historikken til terminalen: 
-
-
-    
-            
+            //Skriv ut historikken til terminalen:           
 
         }
 
