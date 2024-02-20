@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cdull.V2024.HarborSimulation.UserTest
 {
-    class TestALL
+    class TestAll
     {
         static void Main(string[] args)
         {   
