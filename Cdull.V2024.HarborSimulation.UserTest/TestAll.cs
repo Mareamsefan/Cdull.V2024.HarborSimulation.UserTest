@@ -8,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace Cdull.V2024.HarborSimulation.UserTest
 {
-    class TestFindMethods
+    class TestALL
     {
         static void Main(string[] args)
         {   
-            // Opprettet en instans av havne-klassen
-            Harbor harbor = new("Habor1", new CargoStorage("Cargostorage", 1000));
+            // Opprett en havn: 
 
             // Prøv å lag en liste med skip så enkelt så mulig ved å bruke harbor klassen:
 
@@ -21,16 +20,13 @@ namespace Cdull.V2024.HarborSimulation.UserTest
             // Prøv å lag en liste med kaiplasser så enkelt så mulig ved å bruke harbor klassen:
 
 
-            // Laget en instans av simuleringen vår - klassen som implementerer IHarborSimulation interface:  
-            IHarborSimulation driver = new Simulation();
+            // Lag en simuleringen:  
+         
+            // Lag en starttid og en slutttid for simuleringen: 
 
-            // Lagde en starttid og en slutttid for simuleringen: 
-            DateTime startTime = new DateTime(2024, 1, 1);
-            DateTime endTime = new DateTime(2024, 1, 5);
-
-            // Lagde en starttid for når seilingen til alle skipene skal starte: 
-            DateTime startSailingTime = new DateTime(2024, 1, 2);
-
+            
+            // Lag en starttid for når seilingen til alle skipene skal starte: 
+           
 
             // Prøv å kjør en simulering: 
 

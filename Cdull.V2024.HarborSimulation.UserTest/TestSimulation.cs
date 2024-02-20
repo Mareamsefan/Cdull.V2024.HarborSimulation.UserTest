@@ -13,7 +13,7 @@ namespace Cdull.V2024.HarborSimulation.UserTest
     {
         static void Main(string[] args)
         {
-            //Her har du en harbor istans
+            //Her har du en harbor
             Harbor harbor = new Harbor("Test Harbor", new CargoStorage("CargoStorage", 1000));
 
             //Her har du en liste med kaier
@@ -27,21 +27,19 @@ namespace Cdull.V2024.HarborSimulation.UserTest
             ships.AddRange(harbor.InitializeShips(5, Model.Bulker, Size.Large, 50));
             ships.AddRange(harbor.InitializeShips(5, Model.LNGCarrier, Size.Large, 50));
 
-            // Sett opp en ny instans av simulering klassen som implementerer IHarborSimulation interfacet:
 
 
-            // Sett opp start og slutt tid for simuleringen:
+            //sett opp en simulering: 
+
+            // Kjør simuleringen: 
+            // 1: Seilingen skal skje daglig:
 
 
-            // Sett opp en tid for når seilingen skal starte:
+            // Kjør simuleringen: 
+            // 2: Seilingen skal skal skje ukentlig:
 
-
-            //  Kjør simulering ved å bruke metoden i instansen du opprettet av simulering-klassen: 
-            // 1: Seilingen skal være en RecurringSailing og skal skje daglig:
-
-            // 2: Seilingen skal være en RecurringSailing og skal skje ukentlig:
-
-            // 3: Seilingen skal være en vanlig seiling ikke Recurring:
+            // Kjør simuleringen: 
+            // 3: Seilingen skal skje 3/25/2024 eller på en dato du selv spesifiserer:
 
 
 
